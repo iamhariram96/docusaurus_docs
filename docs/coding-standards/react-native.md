@@ -2,54 +2,49 @@
 sidebar_position: 2
 ---
 
-# React Native
+# REACT NATIVE
 
-Documents are **groups of pages** connected through:
+**Table of contents**:
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+- **Code Structure**
+- **Structuring the folder**
+- **Basics**
+- **Naming Conventions**
+- **Avoid Inline Stylings**
+- **Do Use Safe Area View**
+- **Do Use Keyboard Avoiding View**
+- **Always Use loaders while fetching the data from API**
+- **Bug Avoidance**
+- **Environment Variables**
+- **React Components**
 
-## Create your first Doc
+## CODE STRUCTURE
 
-Create a Markdown file at `docs/hello.md`:
+Put all your imports in order at the very top of the code file. You shall ideally prioritize as follows:
 
-```md title="docs/hello.md"
-# Hello
-
-This is my **first Docusaurus document**!
+```
+import React from 'react';
+import PropTypes from 'prop-types';
+import {useTheme} from 'styled-components';
+// Components
+import {Picture} from '../';
+// Icons
+import {GreaterThan} from '../../assets/icons';
+// Styled Components
+import {
+ Row,
+ H5,
+ SubTitle,
+ BulletIn,
+ HorizontalSpacer,
+ Caption,
+} from '../../assets/styles';
+import {CardContainer, PatientDetailContainer, StatusContainer} from './styles';
+// Utils
+import normalize from '../../utils/pixelDensityHandler';
 ```
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+Ensure all your imports statements are on new lines, making your imports clean and easy to understand for all the components, third-party libraries, etc. Treat props as read-only. Do not try to modify them. 
 
-## Configure the Sidebar
+2. Use index.js for each folder to export so that all the imports are referenced on the index.js file, and you don't have to write import statements again and again for every file. 	
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
-
-Add metadata to customize the sidebar label and position:
-
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
-
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    {
-      type: 'category',
-      label: 'Tutorial',
-      // highlight-next-line
-      items: ['hello'],
-    },
-  ],
-};
-```
