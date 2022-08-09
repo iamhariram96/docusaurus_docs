@@ -35,6 +35,129 @@ const sidebars = {
 		]
 		
 	  },
+	  {
+		'UI Builder':[
+			{type:'doc',id:'ui-builder/functional', label: 'Functional'},
+			{type:'doc',id:'ui-builder/technical', label: 'Technical'},
+			{type:'doc',id:'ui-builder/user-manual', label: 'User Manual'},
+			{'Component ':[
+				{type:'doc',id:'button', label: 'Button'},
+			]},
+
+		]},
+		{
+			'Service Flow':[
+				{type:'doc',id:'service-flow/functional', label: 'Functional'},
+				{type:'doc',id:'service-flow/technical', label: 'Technical'},
+				{type:'doc',id:'service-flow/user-manual', label: 'User Manual'},
+
+			]
+	  },
+	  {
+		'Entity Designer':[
+			{type:'doc',id:'entity-designer/functional', label: 'Functional'},
+			{type:'doc',id:'entity-designer/technical', label: 'Technical'},
+			{type:'doc',id:'entity-designer/user-manual', label: 'User Manual'},
+
+		]
+ 	 },
+	  {
+		'IDM':[
+			{type:'doc',id:'idm/functional', label: 'Functional'},
+			{type:'doc',id:'idm/technical', label: 'Technical'},
+			{type:'doc',id:'idm/user-manual', label: 'User Manual'},
+
+		]
+ 	 },
+	  {
+		'Form Configurator':[
+			{type:'doc',id:'form-configurator/functional', label: 'Functional'},
+			{type:'doc',id:'form-configurator/technical', label: 'Technical'},
+			{type:'doc',id:'form-configurator/user-manual', label: 'User Manual'},
+
+		]
+ 	 },
+	  {
+		'Service Registry':[
+			{type:'doc',id:'service-registry/functional', label: 'Functional'},
+			{type:'doc',id:'service-registry/technical', label: 'Technical'},
+			{type:'doc',id:'service-registry/user-manual', label: 'User Manual'},
+
+		]
+ 	 },
+	  
+	  {
+		'Message catlog':[
+			{type:'doc',id:'message-catlog/functional', label: 'Functional'},
+			{type:'doc',id:'message-catlog/technical', label: 'Technical'},
+			{type:'doc',id:'message-catlog/user-manual', label: 'User Manual'},
+
+		]
+ 	 },
+	 {
+		'Rule Builder':[
+			{type:'doc',id:'rule-builder/functional', label: 'Functional'},
+			{type:'doc',id:'rule-builder/technical', label: 'Technical'},
+			{type:'doc',id:'rule-builder/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'Alertshub':[
+			{type:'doc',id:'alertshub/functional', label: 'Functional'},
+			{type:'doc',id:'alertshub/technical', label: 'Technical'},
+			{type:'doc',id:'alertshub/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'Url Shortner':[
+			{type:'doc',id:'url-shortner/functional', label: 'Functional'},
+			{type:'doc',id:'url-shortner/technical', label: 'Technical'},
+			{type:'doc',id:'url-shortner/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'Task & Workflow':[
+			{type:'doc',id:'task-&-workflow/functional', label: 'Functional'},
+			{type:'doc',id:'task-&-workflow/technical', label: 'Technical'},
+			{type:'doc',id:'task-&-workflow/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'Printer configuration':[
+			{type:'doc',id:'printer-configuration/functional', label: 'Functional'},
+			{type:'doc',id:'printer-configuration/technical', label: 'Technical'},
+			{type:'doc',id:'printer-configuration/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'AVC':[
+			{type:'doc',id:'avc/functional', label: 'Functional'},
+			{type:'doc',id:'avc/technical', label: 'Technical'},
+			{type:'doc',id:'avc/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'Datum':[
+			{type:'doc',id:'datum/functional', label: 'Functional'},
+			{type:'doc',id:'datum/technical', label: 'Technical'},
+			{type:'doc',id:'datum/user-manual', label: 'User Manual'},
+
+		]
+	 },
+	 {
+		'Ainqa Thinks':[
+			{type:'doc',id:'ainqa-thinks/functional', label: 'Functional'},
+			{type:'doc',id:'ainqa-thinks/technical', label: 'Technical'},
+			{type:'doc',id:'ainqa-thinks/user-manual', label: 'User Manual'},
+
+		]
+	 }
   ],
 
 };
